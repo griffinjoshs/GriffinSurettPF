@@ -1,0 +1,18 @@
+.contact-info {
+    background: url('../../images/wpoverlay2.png');
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+     padding: 150px 0px 150px 0px;
+    flex-wrap: wrap; 
+    color: #3a3ab9;
+}
+
+@media only screen and (max-width: 900px) {
+    .contact-info>* {
+        flex: 1 1 40%;
+    }
+}

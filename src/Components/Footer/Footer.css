@@ -1,0 +1,101 @@
+#footer {
+    color: white;
+    background-color: #13315c;
+    display: flex;
+    padding: 4pc 6pc 4pc 6pc;
+    flex-wrap: wrap; 
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+#footerContent {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.divider {
+    background: linear-gradient(135deg, rgb(44, 136, 255), #36d1dc 68%);
+    height: 1px;
+    width: 100px;
+}
+
+#footer a {
+    color: white;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
+
+#emailSub[type=email] {
+    color: white;
+    background-color: #0c1e38;
+    border-radius: 5px;
+    display: block;
+    min-width: 1pc;
+    flex-grow: 1;
+    box-sizing: border-box;
+    border: 1px solid rgb(75, 75, 99);
+    padding: 10px 20px;
+    outline: none;
+    transition: 0.5s;      
+}
+
+#emailSub[type=email]:hover {
+    border: 1px solid white;
+}
+
+#emailSub[type=email]:active {
+    box-shadow: 0 0 22px 24px blue;
+}
+
+#footer::placeholder {
+    color: white;
+  }
+
+  #footerForm {
+      display: flex;
+  }
+
+  @media only screen and (max-width: 1040px) {
+      #footer>* {
+        flex: 1 1 25%;
+      }
+  }
+
+  @media only screen and (min-width: 825px) {
+      #footer {
+          justify-content: space-around;
+      }
+  }
+
+  @media only screen and (max-width: 825px) {
+    #footer {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .footerMiddle-sec {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #footerForm {
+        flex-direction: column;
+    }
+}
+

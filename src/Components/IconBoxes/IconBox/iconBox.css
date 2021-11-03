@@ -1,0 +1,15 @@
+.iconBox {
+    padding: 50px;
+    text-align: center;
+    color:#36d1dc;
+}
+
+.iconBox h3:hover {
+    color:  rgb(91,134,229);
+}
+
+.iconBox svg {
+    font-size: 60px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,80 @@
+.btn {
+    padding: 8px 20px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px 0 10px;
+}
+
+.btn--primary {
+    background-color: #ffffff;
+    color: rgb(91,134,229);
+    border: 1px solid #ffffff
+}
+
+.btn--primary:hover {
+    background: transparent;
+    color: white;
+}
+
+.btn--outline {
+    background-color: transparent;
+    color: #fff;
+    padding: 8px 20px;
+    border: 1px solid white;
+    transition: all 0.3s ease-out;
+}
+
+.btn--outline:hover {
+    background-color: #fff;
+    color: rgb(91,134,229);
+    padding: 8px 20px;
+    border: 1px solid white;
+    transition: all 0.3s ease-out;
+}
+
+.btn--form {
+    color: white;
+    background-color: rgb(91,134,229);
+}
+
+.btn--form:hover {
+    color: rgb(91,134,229);
+    background-color: white;  
+    border: rgb(91,134,229) solid 2px;
+}
+
+.btn--medium {
+    padding: 8px 20px;
+    font-size: 20px
+}
+
+.btn--medium:hover .btn--large:hover {
+    transition: all 0.3s ease-out;
+}
+
+.btn--large {
+    padding: 12px 35px;
+    font-size: 30px;
+}
+
+.btn--large:hover {
+    padding: 12px 35px;
+    font-size: 30px;
+}
+
+.btn--small {
+    padding: 6px 12px;
+    font-size: 15px;
+}
+
+.btn--card {
+    background: transparent;
+    border: none;
+    font-size: 15px;
+}
+
+.btn--card:hover {
+    color: #3a3ab9
+}

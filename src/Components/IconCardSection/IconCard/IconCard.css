@@ -1,0 +1,29 @@
+.card {
+    border-radius: 3vw 4vw 8vw 2vw;
+    padding: 4% 8% 4% 8%;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (min-width: 825px) {
+    .card {
+        margin: 30px;
+    }
+}
+
+@media only screen and (max-width: 825px) {
+    .card {
+        margin-bottom: 2pc;
+    }
+}
+
+.card:hover {
+    box-shadow:0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.card h2 {
+    font-size: 35px;
+    color: #3a3ab9;
+}
+.card h3 {
+    font-size: 25px;
+}

@@ -1,0 +1,59 @@
+.bluePic-section {
+  background: linear-gradient(135deg,#5b86e5,#67688f);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+}
+
+.about-me h2 {
+  font-size: 30px;
+}
+
+.about-me p {
+  font-size: 17px;
+}
+
+.gainer-box {
+    background: url('../../images/wp-flip.webp');
+    min-width: 280px;
+    min-height: 320px;
+  /* background-position: center top; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 3vw 4vw 8vw 2vw;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+    padding: 4% 8% 4% 8%;
+    margin-top: -150px;
+    margin: -150px 30px 0 30px;
+}
+
+.bluePic-section button {
+  margin-top: 20px
+}
+
+@media only screen and (min-width: 900px) {
+  .about-me {
+    padding: 40px;
+  }
+
+  .bluePic-section {
+    padding: 40px 70px 40px 70px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .gainer-box {
+    display: none;
+  }
+
+  .about-me {
+    text-align: center;
+    
+  }
+  .bluePic-section {
+    padding: 20px 40px 20px 40px;
+  }
+}
+
+

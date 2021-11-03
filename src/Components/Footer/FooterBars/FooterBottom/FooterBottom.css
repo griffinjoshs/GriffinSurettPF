@@ -1,0 +1,15 @@
+.footer-bottom {
+    background-color: #0c2241;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5.4pc;
+    padding: 0 6pc 0 6pc;
+    color: white;
+    text-align: center;
+}
+
+.footer-bottom h4 {
+    font-size: 25px;
+} 
+

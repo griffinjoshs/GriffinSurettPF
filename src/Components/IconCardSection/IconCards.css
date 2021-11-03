@@ -1,0 +1,36 @@
+.cards {
+    background: url('../../images/wpoverlay2.png');
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardSec-title {
+    text-align: center;
+    padding: 2pc 0 1pc 0;
+}
+
+.cardSec-title h2 {
+    color: #3a3ab9;
+    font-size: 55px;
+}
+
+.cardSec-title h5 {
+    font-size: 25px;
+}
+
+.card-section {  
+    display: flex;
+   justify-content: space-between;
+    padding: 30px 60px 190px 60px;
+    flex-wrap: wrap; 
+}
+
+
+
+@media only screen and (min-width: 900px) {
+    .card-section>* {
+        flex: 1 1 33%;
+    }
+}

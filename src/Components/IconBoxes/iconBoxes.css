@@ -1,0 +1,17 @@
+.iconBoxes {
+    display: flex;
+    justify-content: space-evenly;
+    background: #fcf7f5;
+    flex-wrap: wrap;
+}
+
+.iconBoxes {
+    flex: 1 1 25%;
+}
+
+@media only screen and (max-width: 750px) {
+    .iconBoxes {
+        flex: 1 1 25%;
+}
+}
+
