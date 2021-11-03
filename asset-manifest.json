@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/GriffinSurettPF/static/css/main.b7e26a5e.chunk.css",
-    "main.js": "/GriffinSurettPF/static/js/main.0e717d96.chunk.js",
-    "main.js.map": "/GriffinSurettPF/static/js/main.0e717d96.chunk.js.map",
-    "runtime-main.js": "/GriffinSurettPF/static/js/runtime-main.0c0120a2.js",
-    "runtime-main.js.map": "/GriffinSurettPF/static/js/runtime-main.0c0120a2.js.map",
-    "static/js/2.ad0cee9b.chunk.js": "/GriffinSurettPF/static/js/2.ad0cee9b.chunk.js",
-    "static/js/2.ad0cee9b.chunk.js.map": "/GriffinSurettPF/static/js/2.ad0cee9b.chunk.js.map",
-    "index.html": "/GriffinSurettPF/index.html",
-    "static/css/main.b7e26a5e.chunk.css.map": "/GriffinSurettPF/static/css/main.b7e26a5e.chunk.css.map",
-    "static/js/2.ad0cee9b.chunk.js.LICENSE.txt": "/GriffinSurettPF/static/js/2.ad0cee9b.chunk.js.LICENSE.txt",
-    "static/media/griffinjoshs-logo.91aea443.png": "/GriffinSurettPF/static/media/griffinjoshs-logo.91aea443.png",
-    "static/media/navbar.css": "/GriffinSurettPF/static/media/wp-flip.e261fd48.webp",
-    "static/media/styles.css": "/GriffinSurettPF/static/media/wpoverlay2.c50fe46a.png"
+    "main.css": "/GriffinSurettPFS/static/css/main.472ee24d.chunk.css",
+    "main.js": "/GriffinSurettPFS/static/js/main.0e717d96.chunk.js",
+    "main.js.map": "/GriffinSurettPFS/static/js/main.0e717d96.chunk.js.map",
+    "runtime-main.js": "/GriffinSurettPFS/static/js/runtime-main.f70fe953.js",
+    "runtime-main.js.map": "/GriffinSurettPFS/static/js/runtime-main.f70fe953.js.map",
+    "static/js/2.ad0cee9b.chunk.js": "/GriffinSurettPFS/static/js/2.ad0cee9b.chunk.js",
+    "static/js/2.ad0cee9b.chunk.js.map": "/GriffinSurettPFS/static/js/2.ad0cee9b.chunk.js.map",
+    "index.html": "/GriffinSurettPFS/index.html",
+    "static/css/main.472ee24d.chunk.css.map": "/GriffinSurettPFS/static/css/main.472ee24d.chunk.css.map",
+    "static/js/2.ad0cee9b.chunk.js.LICENSE.txt": "/GriffinSurettPFS/static/js/2.ad0cee9b.chunk.js.LICENSE.txt",
+    "static/media/griffinjoshs-logo.91aea443.png": "/GriffinSurettPFS/static/media/griffinjoshs-logo.91aea443.png",
+    "static/media/navbar.css": "/GriffinSurettPFS/static/media/wp-flip.e261fd48.webp",
+    "static/media/styles.css": "/GriffinSurettPFS/static/media/wpoverlay2.c50fe46a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0c0120a2.js",
+    "static/js/runtime-main.f70fe953.js",
     "static/js/2.ad0cee9b.chunk.js",
-    "static/css/main.b7e26a5e.chunk.css",
+    "static/css/main.472ee24d.chunk.css",
     "static/js/main.0e717d96.chunk.js"
   ]
 }
